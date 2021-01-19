@@ -1,5 +1,8 @@
 package starter.stepdefinitions;
 
+import io.cucumber.core.cli.Main;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
 import cucumber.api.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -34,8 +37,7 @@ public class RegisterStepDefinitions {
         );
     }
 
-    @Then("he should have access to manage his account")
-    public void he_should_have_access_to_manage_his_account() {
-
+    @Then("he should have access to login in his account")
+    public void heShouldHaveAccessToLoginInHisAccount() {
     }
 }
